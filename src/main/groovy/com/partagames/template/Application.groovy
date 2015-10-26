@@ -17,7 +17,7 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguratio
 class Application {
 
     def static main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args)
     }
 
 }
