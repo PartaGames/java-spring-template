@@ -16,7 +16,7 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguratio
 @EnableAutoConfiguration
 class Application {
 
-    public static void main(String[] args) {
+    def static main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 
